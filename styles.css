@@ -1,0 +1,38 @@
+/* Formato general de tipo y tamaño de letra de la página */
+html {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+/* Formato del título del body: tamaño, ubicación y color */
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(24, 59, 211);
+  }
+
+/* Centrado de la imagen insertada en la página */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+/* Centrado del video insertado en la página */
+  video {
+    display: block;
+    margin: 0 auto;
+  }
+
+/* Formato de todo el texto del main: tamaño, color y ubicación */
+  main {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: rgb(234, 55, 180);
+  padding: 0px 0px 0px 550px;
+}
+
+/* Centrado del pie de página */
+  footer {
+  text-align: center; 
+}
