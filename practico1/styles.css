@@ -1,0 +1,71 @@
+html {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(73, 88, 158);
+}
+
+#button1 {
+    background-color: rgb(31, 195, 17);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 30px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#button2 {
+    background-color: rgb(237, 18, 18);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 30px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    margin: 10px auto 40px auto;
+    background-color: rgb(154, 197, 220);
+    border: 2px solid rgb(31, 195, 17);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(117, 146, 162);
+}
+
+input {
+    background-color: rgb(220, 210, 144);
+    padding: 10px 50px;
+    max-width: 300px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#resultado {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(31, 195, 17);
+}
