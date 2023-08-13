@@ -7,11 +7,11 @@ Incluye un límite máximo y mínimo para el resultado.
 
 ## Instrucciones para el usuario
 
-1° Seleccione una operación en el menú desplegable.
-2° Ingrese un número en el campo "Primer número".
-2° Ingrese un número en el campo "Segundo número".
-4° Presione el botón verde "Calcular" para obtener el resultado, que se verá en la parte inferior.
-5° Por último, presione el botón rojo "AC" y se limpiarán todos los campos. De esta forma la calculadora estará disponible para una nueva operación.
+* 1° Seleccione una operación en el menú desplegable.
+* 2° Ingrese un número en el campo "Primer número".
+* 3° Ingrese un número en el campo "Segundo número".
+* 4° Presione el botón verde "Calcular" para obtener el resultado, que se verá en la parte inferior.
+* 5° Por último, presione el botón rojo "AC" y se limpiarán todos los campos. De esta forma la calculadora estará disponible para una nueva operación.
 
 
 ## Validación de resultados
