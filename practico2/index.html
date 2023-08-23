@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+
+    <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+
+    <h3>Seleccione su jugada:</h3>
+
+    <button id="piedra" type="button"> <img src="img/piedra.jpg" height ="90" width="90" onclick="jugarPiedra()"></button>
+    <button id="papel" type="button"> <img src="img/papel.png" height ="90" width="90" onclick="jugarPapel()"></button>
+    <button id="tijera" type="button"> <img src="img/tijera.png" height ="90" width="90" onclick="jugarTijera()"></button>
+    <br>
+
+    <p id="eleccionusuario">El Usuario eligió:  </p>
+    <p id="eleccionpc">La Computadora eligió:  </p>
+    <p id="resultadoparcial">El resultado de la jugada fue:  </p>
+    <br>
+
+    <p id="resultado">El resultado final es: </p>
+    <p id="resultadousuario">Usuario:  </p>
+    <p id="resultadopc">Computadora:  </p>
+    <p id="resultadoempate">Empates:  </p>
+    <p id="resultadofinal">Ganador:  </p>
+
+    <button id="reset" onclick="reiniciar()"> Reiniciar </button>
+
+    <script src="juego.js"></script>
+</body>
+</html>
